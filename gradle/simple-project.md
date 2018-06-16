@@ -5,10 +5,8 @@ title: Simple Multi-Project Gradle Project
 
 # Simple Multi-Project Gradle Project
 
-
-
 Build layout
-```
+```groovy
 project/
   settings.gradle
   app/
@@ -28,10 +26,3 @@ dependencies {
     implementation project(':component')
 }
 ```
-
-
-{% highlight groovy linenos %}
-dependencies {
-    implementation project(':component')
-}
-{% endhighlight %}
