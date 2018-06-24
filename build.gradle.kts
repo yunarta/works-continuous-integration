@@ -1,0 +1,1 @@
+defaultTasks = listOf("jacocoTestKitConfigureDeps")
